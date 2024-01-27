@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.19.1
 
 COPY pop /usr/local/bin/pop
 
