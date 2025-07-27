@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM python:3.14.0rc1-alpine
 LABEL maintainer "Justin Garrison <justinleegarrison@gmail.com>"
 
 RUN apk add --no-cache \
